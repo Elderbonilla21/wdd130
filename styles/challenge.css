@@ -1,0 +1,19 @@
+.image-container {
+    position: relative;
+    border: 2px;
+    border-style: dashed;
+
+    display: block;
+    overflow: hidden;
+    height: 10em;
+  }
+.text-inside-image{
+        position: absolute;
+        top: 20%;
+        right: 10%;
+        font-size: 3em;
+        border: 2px;
+        border-style: dashed;
+        font-family: system-ui;
+        font-weight: bolder;
+}

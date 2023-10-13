@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 :root {
     --primary-100: #F2C94C;
     --primary-200: #d1ac2d;
@@ -9,86 +10,103 @@
     --bg-100: #365A46;
     --bg-200: #476c57;
     --bg-300: #618771;
-  }
+}
+body {
+  background-color: var(--bg-300);
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  color: white
+}
+header{
+  background-color: var(--bg-300);
+}
+nav, a{
+  background-color: var(--bg-300);
+  padding: 20px;
+  text-align: left;
+  color: var(--text-100);
+  text-decoration: none;
+}
+h2 {
+  margin: 0;
+}
+footer{
+  background-color: var(--bg-100);
+  color: white;
+  margin-bottom: 15px;
+  padding: 30px
+}
+footer a{
+  background-color: var(--bg-100);
+  margin: 0;
+  padding: 0;
   
-  #content {
-    max-width: 1600px;
-    margin: 0 auto;
-    background-color: var(--bg-100);
-    color: var(--text-100);
-  }
-  
-  nav a {
-    text-align: center;
-    color: var(--text-100);
-  }
-  
-  #hero-msg h1, #hero-msg h4 {
-    text-align: center;
-    color: var(--primary-100);
-  }
-  
-  .button-box {
-    text-align: center;
-  }
-  
-  main section {
-    text-align: center;
-  }
-  
-  #background {
-    height: 725px;
-    background-color: var(--bg-300);
-  }
-  
-  body {
-    background-color: var(--bg-100);
-  }
-  
-  header {
-    background-color: rgba(119, 119, 119, 0.7);
-  }
-  
-  nav a:hover {
-    background-color: var(--bg-200);
-    color: var(--text-100);
-    text-decoration: none;
-  }
-  
-  .book, .join {
-    background-color: var(--accent-100);
-    color: var(--text-100);
-    text-decoration: none;
-  }
-  
-  .book:hover, .join:hover {
-    background-color: black;
-    color: var(--text-100);
-  }
-  
-  .msg {
-    background-color: var(--bg-100);
-    color: var(--text-100);
-  }
-  
-  footer {
-    background-color: var(--bg-200);
-    color: var(--text-100);
-  }
-  
-  .home-title, h4, .msg h2, .msg p, footer a, footer a:hover, .logo, .icon, footer p, footer p a:hover, .product-image, .montains {
-    color: var(--text-100);}
+}
+footer ul{
+  list-style: none;
+}
+.home-title {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 1em;
+  margin-top: 10px;
+  text-align: center;
+}
+#banner-box{
+  text-align: center;
+}
+.banner{
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: var(--bg-300);
+}
+.book, .join{
+  font-size: 0.6em;
+  margin: 50px 0;
+}
 .jobo{
     color: #F2C94C;
-    
+    border-color: var(--text-100);
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
 }
 .jobo:hover{
     background-color: var(--bg-200);
     color: var(--text-100);
     text-decoration: none;
 }
+.icon{
+  margin: 100px 0;
+
+}
+.border{
+  border: 10px;
+  border-style: solid;
+  border-color: var(--primary-200);
+}
+.space_block{
+  margin: 80px 0;
+  height: 800px;
+  background-color: var(--primary-200);
+}
 .product-image{
-    display: block;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-right: auto;
+  width: 50%;
+}
+.mountain{
+  margin: 100px 0px 100px 0px;
+}
+.rafting{
+  text-align: center;
+  background-color: var(--bg-100);
+  color: white;
+  padding: 30px 0;
+  margin: 250px 0 250px 0;
+  
 }
