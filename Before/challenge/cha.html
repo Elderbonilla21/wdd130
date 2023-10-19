@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            background-color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 0 10%;
+
+        }
+        .grid-item {
+            background-color: aquamarine;
+            padding: 10px;
+            text-align: center;
+            font-size: 5em;
+            font-weight: bold;
+            color: darkred;
+            letter-spacing: 20px;
+        }
+        .grid-item-left{
+            background-color: white;
+
+        }
+        .grid-item-right{
+            background-color: rgb(175, 174, 174);
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            padding: 20%;
+        }
+        .soft{
+            font-size: 150px;
+            font-weight: bold;
+            position: absolute;
+            top: 18%;
+            left: 350px;
+            letter-spacing: 30px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item  grid-item-left"><img src="w06_cherries.png" alt="cherries"></div>
+        <div class="grid-item grid-item-right">Cherries</div>
+        <div class="soft">Tart & Sweet</div>
+    </div>
+</body>
+</html>
