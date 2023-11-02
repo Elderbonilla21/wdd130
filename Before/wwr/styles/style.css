@@ -54,7 +54,11 @@ footer ul{
   text-align: center;
 }
 #banner-box{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
   text-align: center;
+  margin-top: -100px;
+
 }
 .banner{
   border-right: 0px;
@@ -63,6 +67,13 @@ footer ul{
   border-bottom: 2px;
   border-style: solid;
   border-color: var(--bg-300);
+  grid-column: 1/4;
+  grid-row: 1/3;
+  margin-top: 100px;
+  z-index: -1;
+}
+.paragraph{
+  color: white;
 }
 .book, .join{
   font-size: 0.6em;
@@ -107,6 +118,18 @@ footer ul{
   background-color: var(--bg-100);
   color: white;
   padding: 30px 0;
-  margin: 250px 0 250px 0;
-  
+  margin: 250px 0 250px 0; 
+}
+.header-grid{
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+.nav-flex{
+  display: flex;
+  justify-content: space-around;
+}
+#link_logo{
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
 }
